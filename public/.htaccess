@@ -2,3 +2,6 @@ AuthUserFile /app/.htpasswd
 AuthType Basic
 AuthName "Restricted Access"
 Require valid-user
+
+Options +Includes
+AddOutputFilter INCLUDES .htm .html
